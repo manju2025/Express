@@ -59,11 +59,11 @@ app.get("/user/:id",(req,res)=>
     },
     {
         "id":2,
-        "name":"panju"
+        "name":"sanju"
     },
     {
         "id":3,
-        "name":"kunju"
+        "name":"bindhu"
     },
    ] 
    let result=arr.filter((ele)=>ele.id==id.id) 
